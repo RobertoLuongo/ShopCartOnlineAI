@@ -1,0 +1,26 @@
+{
+  "name": "shopcart",
+  "version": "1.0.0",
+  "description": "Auto Parts Shop Cart Application",
+  "main": "index.js",
+  "scripts": {
+  "start:backend": "cd backend && npm run dev",
+  "start:frontend": "cd frontend && npm start",
+  "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+  "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+  "test": "cd backend && npm test"
+  },
+  "keywords": [
+    "ecommerce",
+    "shop",
+    "cart",
+    "node",
+    "angular"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "jest": "^30.1.3"
+  }
+}

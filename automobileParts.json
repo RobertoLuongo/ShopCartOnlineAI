@@ -1,0 +1,323 @@
+[
+  {
+      "id": 1,
+      "name": "Brake Pad Set",
+      "description": "High quality brake pad set.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23FFE5E5' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Crect x='-60' y='-50' width='120' height='100' rx='10' fill='%23FF6B6B' stroke='%23CC5555' stroke-width='4'/%3E%3Crect x='-50' y='-35' width='100' height='20' fill='%23FFD700' stroke='%23CC5555' stroke-width='2'/%3E%3Crect x='-50' y='-10' width='100' height='20' fill='%23FFD700' stroke='%23CC5555' stroke-width='2'/%3E%3Crect x='-50' y='15' width='100' height='20' fill='%23FFD700' stroke='%23CC5555' stroke-width='2'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='20' fill='%23333' text-anchor='middle' font-family='Arial'%3EBrake Pads%3C/text%3E%3C/svg%3E",
+      "price": 45.99,
+      "manufacturer": "Brembo",
+      "model_compatibility": ["Model A", "Model B", "Model C"],
+      "part_number": "BP123",
+      "stock": 20,
+      "specifications": {
+          "weight": "1.2kg",
+          "dimensions": "15x10x2cm",
+          "material": "Ceramic"
+      }
+  },
+  {
+      "id": 2,
+      "name": "Oil Filter",
+      "description": "Durable oil filter.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23E0F7F5' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Cellipse cx='0' cy='0' rx='50' ry='70' fill='%234ECDC4' stroke='%23333' stroke-width='3'/%3E%3Cpath d='M -50 -70 Q -50 -85 0 -85 Q 50 -85 50 -70' fill='%23333'/%3E%3Cline x1='-40' y1='-50' x2='40' y2='-50' stroke='%23333' stroke-width='2'/%3E%3Cline x1='-40' y1='-25' x2='40' y2='-25' stroke='%23333' stroke-width='2'/%3E%3Cline x1='-40' y1='0' x2='40' y2='0' stroke='%23333' stroke-width='2'/%3E%3Cline x1='-40' y1='25' x2='40' y2='25' stroke='%23333' stroke-width='2'/%3E%3Cline x1='-40' y1='50' x2='40' y2='50' stroke='%23333' stroke-width='2'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='20' fill='%23333' text-anchor='middle' font-family='Arial'%3EOil Filter%3C/text%3E%3C/svg%3E",
+      "price": 10.99,
+      "manufacturer": "Bosch",
+      "model_compatibility": ["Model D", "Model E", "Model F"],
+      "part_number": "OF456",
+      "stock": 50,
+      "specifications": {
+          "weight": "0.3kg",
+          "dimensions": "7x7x9cm",
+          "material": "Synthetic"
+      }
+  },
+  {
+      "id": 3,
+      "name": "Spark Plug",
+      "description": "High performance spark plug.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23FFF8DC' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Crect x='-15' y='-80' width='30' height='40' fill='%23FFD700' stroke='%23333' stroke-width='2'/%3E%3Crect x='-20' y='-40' width='40' height='60' rx='5' fill='%23FFFFFF' stroke='%23333' stroke-width='2'/%3E%3Crect x='-10' y='20' width='20' height='50' fill='%23C0C0C0' stroke='%23333' stroke-width='2'/%3E%3Cpolygon points='0,-95 -5,-105 5,-105' fill='%23FFD700' stroke='%23333' stroke-width='1'/%3E%3Cline x1='-3' y1='70' x2='-3' y2='85' stroke='%23333' stroke-width='2'/%3E%3Cline x1='3' y1='70' x2='3' y2='85' stroke='%23333' stroke-width='2'/%3E%3Cpath d='M -8 -100 L -15 -115 M 0 -100 L 0 -120 M 8 -100 L 15 -115' stroke='%23FFD700' stroke-width='2' fill='none'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='20' fill='%23333' text-anchor='middle' font-family='Arial'%3ESpark Plug%3C/text%3E%3C/svg%3E",
+      "price": 5.99,
+      "manufacturer": "NGK",
+      "model_compatibility": ["Model G", "Model H", "Model I"],
+      "part_number": "SP789",
+      "stock": 100,
+      "specifications": {
+          "weight": "0.1kg",
+          "dimensions": "2x2x8cm",
+          "material": "Ceramic"
+      }
+  },
+  {
+      "id": 4,
+      "name": "Air Filter",
+      "description": "Efficient air filter.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23E8F8F5' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Crect x='-70' y='-50' width='140' height='100' rx='10' fill='%2395E1D3' stroke='%23333' stroke-width='3'/%3E%3Cpath d='M -60 -40 L -60 40 M -40 -40 L -40 40 M -20 -40 L -20 40 M 0 -40 L 0 40 M 20 -40 L 20 40 M 40 -40 L 40 40 M 60 -40 L 60 40' stroke='%23666' stroke-width='2'/%3E%3Crect x='-70' y='-50' width='140' height='100' rx='10' fill='none' stroke='%23333' stroke-width='3'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='20' fill='%23333' text-anchor='middle' font-family='Arial'%3EAir Filter%3C/text%3E%3C/svg%3E",
+      "price": 15.99,
+      "manufacturer": "K&N",
+      "model_compatibility": ["Model J", "Model K", "Model L"],
+      "part_number": "AF012",
+      "stock": 30,
+      "specifications": {
+          "weight": "0.4kg",
+          "dimensions": "30x30x5cm",
+          "material": "Synthetic"
+      }
+  },
+  {
+      "id": 5,
+      "name": "Alternator",
+      "description": "Reliable alternator.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23E8F8F0' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Ccircle cx='0' cy='0' r='60' fill='%23A8E6CF' stroke='%23333' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='40' fill='%236FB89A' stroke='%23333' stroke-width='2'/%3E%3Ccircle cx='0' cy='0' r='15' fill='%23333'/%3E%3Crect x='-5' y='-75' width='10' height='20' rx='3' fill='%23C0C0C0' stroke='%23333' stroke-width='2'/%3E%3Crect x='-5' y='55' width='10' height='20' rx='3' fill='%23C0C0C0' stroke='%23333' stroke-width='2'/%3E%3Crect x='-75' y='-5' width='20' height='10' rx='3' fill='%23C0C0C0' stroke='%23333' stroke-width='2'/%3E%3Crect x='55' y='-5' width='20' height='10' rx='3' fill='%23C0C0C0' stroke='%23333' stroke-width='2'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='20' fill='%23333' text-anchor='middle' font-family='Arial'%3EAlternator%3C/text%3E%3C/svg%3E",
+      "price": 120.99,
+      "manufacturer": "Bosch",
+      "model_compatibility": ["Model M", "Model N", "Model O"],
+      "part_number": "AL345",
+      "stock": 10,
+      "specifications": {
+          "weight": "5.0kg",
+          "dimensions": "20x15x10cm",
+          "material": "Metal"
+      }
+  },
+  {
+      "id": 6,
+      "name": "Battery",
+      "description": "Long-lasting car battery.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23FFE5E8' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Crect x='-70' y='-40' width='140' height='80' rx='5' fill='%23FF6B6B' stroke='%23333' stroke-width='3'/%3E%3Crect x='-60' y='-50' width='20' height='15' rx='3' fill='%23666' stroke='%23333' stroke-width='2'/%3E%3Crect x='40' y='-50' width='20' height='15' rx='3' fill='%23666' stroke='%23333' stroke-width='2'/%3E%3Ctext x='-35' y='10' font-size='50' fill='white' font-weight='bold' font-family='Arial'%3E+%3C/text%3E%3Ctext x='20' y='10' font-size='50' fill='white' font-weight='bold' font-family='Arial'%3E-%3C/text%3E%3C/g%3E%3Ctext x='150' y='250' font-size='20' fill='%23333' text-anchor='middle' font-family='Arial'%3EBattery%3C/text%3E%3C/svg%3E",
+      "price": 80.99,
+      "manufacturer": "Exide",
+      "model_compatibility": ["Model P", "Model Q", "Model R"],
+      "part_number": "BT678",
+      "stock": 15,
+      "specifications": {
+          "weight": "12.0kg",
+          "dimensions": "30x20x15cm",
+          "material": "Lead Acid"
+      }
+  },
+  {
+      "id": 7,
+      "name": "Radiator",
+      "description": "Efficient car radiator.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23E8ECFA' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Crect x='-75' y='-55' width='150' height='110' rx='5' fill='%23C7CEEA' stroke='%23333' stroke-width='3'/%3E%3Cpath d='M -65 -45 L -65 45 M -45 -45 L -45 45 M -25 -45 L -25 45 M -5 -45 L -5 45 M 15 -45 L 15 45 M 35 -45 L 35 45 M 55 -45 L 55 45' stroke='%23666' stroke-width='3'/%3E%3Ccircle cx='-80' cy='-30' r='8' fill='%23FFD700' stroke='%23333' stroke-width='2'/%3E%3Ccircle cx='-80' cy='30' r='8' fill='%2366B2FF' stroke='%23333' stroke-width='2'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='20' fill='%23333' text-anchor='middle' font-family='Arial'%3ERadiator%3C/text%3E%3C/svg%3E",
+      "price": 90.99,
+      "manufacturer": "Denso",
+      "model_compatibility": ["Model S", "Model T", "Model U"],
+      "part_number": "RD910",
+      "stock": 8,
+      "specifications": {
+          "weight": "3.0kg",
+          "dimensions": "60x40x5cm",
+          "material": "Aluminium"
+      }
+  },
+  {
+      "id": 8,
+      "name": "Fuel Pump",
+      "description": "High quality fuel pump.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23FFF0E5' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Crect x='-35' y='-60' width='70' height='100' rx='10' fill='%23FFDAC1' stroke='%23333' stroke-width='3'/%3E%3Ccircle cx='0' cy='-20' r='25' fill='%23FF8C42' stroke='%23333' stroke-width='2'/%3E%3Crect x='-40' y='40' width='15' height='30' rx='3' fill='%23666' stroke='%23333' stroke-width='2'/%3E%3Crect x='25' y='40' width='15' height='30' rx='3' fill='%23666' stroke='%23333' stroke-width='2'/%3E%3Crect x='-10' y='-75' width='20' height='20' rx='3' fill='%23C0C0C0' stroke='%23333' stroke-width='2'/%3E%3Ccircle cx='0' cy='-20' r='10' fill='%23FFD700'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='20' fill='%23333' text-anchor='middle' font-family='Arial'%3EFuel Pump%3C/text%3E%3C/svg%3E",
+      "price": 70.99,
+      "manufacturer": "Delphi",
+      "model_compatibility": ["Model V", "Model W", "Model X"],
+      "part_number": "FP112",
+      "stock": 12,
+      "specifications": {
+          "weight": "1.0kg",
+          "dimensions": "10x10x10cm",
+          "material": "Metal"
+      }
+  },
+  {
+      "id": 9,
+      "name": "Water Pump",
+      "description": "Durable water pump.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23E5F8F3' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Ccircle cx='0' cy='0' r='50' fill='%23B5EAD7' stroke='%23333' stroke-width='3'/%3E%3Cpath d='M -30 0 Q -30 -20 -10 -20 L 10 -20 Q 30 -20 30 0 Q 30 20 10 20 L -10 20 Q -30 20 -30 0' fill='%236FB8A8' stroke='%23333' stroke-width='2'/%3E%3Ccircle cx='0' cy='0' r='15' fill='%23333'/%3E%3Cpath d='M -35 -35 L -50 -50 M 35 -35 L 50 -50 M -35 35 L -50 50 M 35 35 L 50 50' stroke='%23333' stroke-width='4' stroke-linecap='round'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='20' fill='%23333' text-anchor='middle' font-family='Arial'%3EWater Pump%3C/text%3E%3C/svg%3E",
+      "price": 60.99,
+      "manufacturer": "Gates",
+      "model_compatibility": ["Model Y", "Model Z"],
+      "part_number": "WP234",
+      "stock": 18,
+      "specifications": {
+          "weight": "2.0kg",
+          "dimensions": "15x15x10cm",
+          "material": "Metal"
+      }
+  },
+  {
+      "id": 10,
+      "name": "Timing Belt",
+      "description": "High performance timing belt.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23F5F8E8' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Cellipse cx='0' cy='0' rx='80' ry='50' fill='none' stroke='%23333' stroke-width='15'/%3E%3Cpath d='M -80 0 A 80 50 0 0 1 80 0' fill='%23E2F0CB' stroke='%23333' stroke-width='3'/%3E%3Cpath d='M -80 0 A 80 50 0 0 0 80 0' fill='%23E2F0CB' stroke='%23333' stroke-width='3'/%3E%3Cpath d='M -75 -3 L -70 -3 M -65 -3 L -60 -3 M -55 -3 L -50 -3 M -45 -3 L -40 -3 M -35 -3 L -30 -3 M -25 -3 L -20 -3 M -15 -3 L -10 -3 M -5 -3 L 0 -3 M 5 -3 L 10 -3 M 15 -3 L 20 -3 M 25 -3 L 30 -3 M 35 -3 L 40 -3 M 45 -3 L 50 -3 M 55 -3 L 60 -3 M 65 -3 L 70 -3' stroke='%23666' stroke-width='4' stroke-linecap='round'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='20' fill='%23333' text-anchor='middle' font-family='Arial'%3ETiming Belt%3C/text%3E%3C/svg%3E",
+      "price": 25.99,
+      "manufacturer": "ContiTech",
+      "model_compatibility": ["Model A", "Model B", "Model C"],
+      "part_number": "TB567",
+      "stock": 25,
+      "specifications": {
+          "weight": "0.5kg",
+          "dimensions": "100x2x1cm",
+          "material": "Rubber"
+      }
+  },
+  
+  {
+      "id": 11,
+      "name": "Transmission Fluid",
+      "description": "High quality transmission fluid.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23FFE8E0' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Crect x='-30' y='-70' width='60' height='120' rx='8' fill='%23FFB5A7' stroke='%23333' stroke-width='3'/%3E%3Crect x='-20' y='-85' width='40' height='20' rx='3' fill='%23FF6B6B' stroke='%23333' stroke-width='2'/%3E%3Crect x='-8' y='-95' width='16' height='12' rx='2' fill='%23333'/%3E%3Crect x='-25' y='-50' width='50' height='70' rx='5' fill='%23FF6666' opacity='0.6'/%3E%3Ctext x='0' y='-20' font-size='14' fill='white' text-anchor='middle' font-family='Arial' font-weight='bold'%3EATF%3C/text%3E%3C/g%3E%3Ctext x='150' y='250' font-size='18' fill='%23333' text-anchor='middle' font-family='Arial'%3ETransmission Fluid%3C/text%3E%3C/svg%3E",
+      "price": 20.99,
+      "manufacturer": "Castrol",
+      "model_compatibility": ["Model D", "Model E", "Model F"],
+      "part_number": "TF891",
+      "stock": 30,
+      "specifications": {
+          "weight": "1.0kg",
+          "dimensions": "10x5x20cm",
+          "material": "Liquid"
+      }
+  },
+  {
+      "id": 12,
+      "name": "Engine Oil",
+      "description": "High performance engine oil.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23FFF0F5' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Crect x='-35' y='-70' width='70' height='130' rx='10' fill='%23FEC8D8' stroke='%23333' stroke-width='3'/%3E%3Crect x='-25' y='-85' width='50' height='20' rx='3' fill='%23FFD700' stroke='%23333' stroke-width='2'/%3E%3Crect x='-10' y='-95' width='20' height='12' rx='2' fill='%23333'/%3E%3Crect x='-30' y='-50' width='60' height='80' rx='5' fill='%23B8860B' opacity='0.6'/%3E%3Ctext x='0' y='-20' font-size='16' fill='white' text-anchor='middle' font-family='Arial' font-weight='bold'%3E5W-30%3C/text%3E%3C/g%3E%3Ctext x='150' y='250' font-size='20' fill='%23333' text-anchor='middle' font-family='Arial'%3EEngine Oil%3C/text%3E%3C/svg%3E",
+      "price": 30.99,
+      "manufacturer": "Mobil 1",
+      "model_compatibility": ["Model G", "Model H", "Model I"],
+      "part_number": "EO902",
+      "stock": 40,
+      "specifications": {
+          "weight": "1.0kg",
+          "dimensions": "10x5x20cm",
+          "material": "Liquid"
+      }
+  },
+  {
+      "id": 13,
+      "name": "Coolant",
+      "description": "Long-lasting coolant.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23F0E8F5' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Crect x='-32' y='-65' width='64' height='120' rx='8' fill='%23957DAD' stroke='%23333' stroke-width='3'/%3E%3Crect x='-22' y='-80' width='44' height='20' rx='3' fill='%236B4C8A' stroke='%23333' stroke-width='2'/%3E%3Crect x='-10' y='-90' width='20' height='12' rx='2' fill='%23333'/%3E%3Crect x='-27' y='-45' width='54' height='75' rx='5' fill='%2366CCFF' opacity='0.6'/%3E%3Cpath d='M -10 -20 Q -10 -30 0 -30 Q 10 -30 10 -20 L 10 0 Q 10 10 0 10 Q -10 10 -10 0 Z' fill='%23FFFFFF' opacity='0.4'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='20' fill='%23333' text-anchor='middle' font-family='Arial'%3ECoolant%3C/text%3E%3C/svg%3E",
+      "price": 15.99,
+      "manufacturer": "Prestone",
+      "model_compatibility": ["Model J", "Model K", "Model L"],
+      "part_number": "CL013",
+      "stock": 50,
+      "specifications": {
+          "weight": "1.0kg",
+          "dimensions": "10x5x20cm",
+          "material": "Liquid"
+      }
+  },
+  {
+      "id": 14,
+      "name": "Fuel Filter",
+      "description": "Efficient fuel filter.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23F5E5E8' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Ccylinder%3E%3Cellipse cx='0' cy='-40' rx='35' ry='15' fill='%23D4A5A5' stroke='%23333' stroke-width='2'/%3E%3Crect x='-35' y='-40' width='70' height='80' fill='%23D4A5A5' stroke='none'/%3E%3Cellipse cx='0' cy='40' rx='35' ry='15' fill='%23B88888' stroke='%23333' stroke-width='2'/%3E%3C/cylinder%3E%3Cpath d='M -30 -35 L -30 35 M -15 -35 L -15 35 M 0 -35 L 0 35 M 15 -35 L 15 35 M 30 -35 L 30 35' stroke='%23888' stroke-width='2'/%3E%3Crect x='-35' y='-40' width='70' height='80' fill='none' stroke='%23333' stroke-width='3'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='20' fill='%23333' text-anchor='middle' font-family='Arial'%3EFuel Filter%3C/text%3E%3C/svg%3E",
+      "price": 10.99,
+      "manufacturer": "Bosch",
+      "model_compatibility": ["Model M", "Model N", "Model O"],
+      "part_number": "FF014",
+      "stock": 60,
+      "specifications": {
+          "weight": "0.2kg",
+          "dimensions": "5x5x5cm",
+          "material": "Synthetic"
+      }
+  },
+  {
+      "id": 15,
+      "name": "Air Conditioning Compressor",
+      "description": "Reliable air conditioning compressor.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23E5E8F5' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Crect x='-60' y='-45' width='120' height='90' rx='10' fill='%239FA8DA' stroke='%23333' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='30' fill='%237B86C8' stroke='%23333' stroke-width='2'/%3E%3Cpath d='M -15 0 L 0 -15 L 15 0 L 0 15 Z' fill='%23FFD700' stroke='%23333' stroke-width='2'/%3E%3Crect x='-65' y='-10' width='10' height='20' rx='2' fill='%23C0C0C0' stroke='%23333' stroke-width='2'/%3E%3Crect x='55' y='-10' width='10' height='20' rx='2' fill='%23C0C0C0' stroke='%23333' stroke-width='2'/%3E%3Cpath d='M -20 -50 Q -20 -60 -10 -60 L 10 -60 Q 20 -60 20 -50' stroke='%23666' stroke-width='3' fill='none'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='18' fill='%23333' text-anchor='middle' font-family='Arial'%3EAC Compressor%3C/text%3E%3C/svg%3E",
+      "price": 200.99,
+      "manufacturer": "Denso",
+      "model_compatibility": ["Model P", "Model Q", "Model R"],
+      "part_number": "AC015",
+      "stock": 10,
+      "specifications": {
+          "weight": "5.0kg",
+          "dimensions": "25x15x20cm",
+          "material": "Metal"
+      }
+  },
+  {
+      "id": 16,
+      "name": "Power Steering Pump",
+      "description": "High performance power steering pump.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23E0F5F5' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Crect x='-45' y='-50' width='90' height='80' rx='8' fill='%2380CBC4' stroke='%23333' stroke-width='3'/%3E%3Ccircle cx='-15' cy='-10' r='25' fill='%235AA8A0' stroke='%23333' stroke-width='2'/%3E%3Ccircle cx='-15' cy='-10' r='12' fill='%23333'/%3E%3Crect x='10' y='-25' width='25' height='30' rx='3' fill='%23666' stroke='%23333' stroke-width='2'/%3E%3Crect x='-50' y='15' width='15' height='20' rx='2' fill='%23C0C0C0' stroke='%23333' stroke-width='2'/%3E%3Crect x='35' y='15' width='15' height='20' rx='2' fill='%23C0C0C0' stroke='%23333' stroke-width='2'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='18' fill='%23333' text-anchor='middle' font-family='Arial'%3EPS Pump%3C/text%3E%3C/svg%3E",
+      "price": 150.99,
+      "manufacturer": "A1 Cardone",
+      "model_compatibility": ["Model S", "Model T", "Model U"],
+      "part_number": "PS016",
+      "stock": 15,
+      "specifications": {
+          "weight": "3.0kg",
+          "dimensions": "20x15x15cm",
+          "material": "Metal"
+      }
+  },
+  {
+      "id": 17,
+      "name": "Shock Absorber",
+      "description": "Durable shock absorber.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23F0F8E8' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Crect x='-15' y='-80' width='30' height='20' rx='5' fill='%23666' stroke='%23333' stroke-width='2'/%3E%3Crect x='-12' y='-60' width='24' height='100' fill='%23AED581' stroke='%23333' stroke-width='3'/%3E%3Cpath d='M -12 -50 L 12 -50 M -12 -30 L 12 -30 M -12 -10 L 12 -10 M -12 10 L 12 10 M -12 30 L 12 30' stroke='%23666' stroke-width='2'/%3E%3Crect x='-20' y='40' width='40' height='25' rx='5' fill='%23888' stroke='%23333' stroke-width='2'/%3E%3Crect x='-8' y='65' width='16' height='15' rx='3' fill='%23666' stroke='%23333' stroke-width='2'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='18' fill='%23333' text-anchor='middle' font-family='Arial'%3EShock Absorber%3C/text%3E%3C/svg%3E",
+      "price": 75.99,
+      "manufacturer": "Bilstein",
+      "model_compatibility": ["Model V", "Model W", "Model X"],
+      "part_number": "SA017",
+      "stock": 20,
+      "specifications": {
+          "weight": "2.0kg",
+          "dimensions": "50x5x5cm",
+          "material": "Metal"
+      }
+  },
+  {
+      "id": 18,
+      "name": "Brake Rotor",
+      "description": "High quality brake rotor.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23FFF8E0' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Ccircle cx='0' cy='0' r='70' fill='%23FFD54F' stroke='%23333' stroke-width='4'/%3E%3Ccircle cx='0' cy='0' r='50' fill='%23FFC107' stroke='%23333' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='20' fill='%23C0C0C0' stroke='%23333' stroke-width='3'/%3E%3Cg%3E%3Ccircle cx='0' cy='-40' r='6' fill='%23666'/%3E%3Ccircle cx='35' cy='-20' r='6' fill='%23666'/%3E%3Ccircle cx='35' cy='20' r='6' fill='%23666'/%3E%3Ccircle cx='0' cy='40' r='6' fill='%23666'/%3E%3Ccircle cx='-35' cy='20' r='6' fill='%23666'/%3E%3Ccircle cx='-35' cy='-20' r='6' fill='%23666'/%3E%3C/g%3E%3Cpath d='M 10 -10 L 30 -30 M 10 10 L 30 30 M -10 10 L -30 30 M -10 -10 L -30 -30' stroke='%23999' stroke-width='3'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='20' fill='%23333' text-anchor='middle' font-family='Arial'%3EBrake Rotor%3C/text%3E%3C/svg%3E",
+      "price": 45.99,
+      "manufacturer": "Brembo",
+      "model_compatibility": ["Model Y", "Model Z"],
+      "part_number": "BR018",
+      "stock": 25,
+      "specifications": {
+          "weight": "5.0kg",
+          "dimensions": "30x30x5cm",
+          "material": "Metal"
+      }
+  },
+  {
+      "id": 19,
+      "name": "Brake Caliper",
+      "description": "Reliable brake caliper.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23FFE8E0' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Cpath d='M -50 -40 L -50 40 L -30 60 L 30 60 L 50 40 L 50 -40 L 30 -60 L -30 -60 Z' fill='%23FF8A65' stroke='%23333' stroke-width='3'/%3E%3Crect x='-45' y='-30' width='90' height='60' rx='5' fill='%23FF6B4A' stroke='%23333' stroke-width='2'/%3E%3Ccircle cx='-25' cy='0' r='12' fill='%23FFD700' stroke='%23333' stroke-width='2'/%3E%3Ccircle cx='25' cy='0' r='12' fill='%23FFD700' stroke='%23333' stroke-width='2'/%3E%3Crect x='-10' y='-35' width='20' height='15' rx='3' fill='%23666' stroke='%23333' stroke-width='2'/%3E%3Cpath d='M -40 35 L -40 50 M -20 35 L -20 50 M 0 35 L 0 50 M 20 35 L 20 50 M 40 35 L 40 50' stroke='%23333' stroke-width='2'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='18' fill='%23333' text-anchor='middle' font-family='Arial'%3EBrake Caliper%3C/text%3E%3C/svg%3E",
+      "price": 80.99,
+      "manufacturer": "A1 Cardone",
+      "model_compatibility": ["Model A", "Model B", "Model C"],
+      "part_number": "BC019",
+      "stock": 15,
+      "specifications": {
+          "weight": "3.0kg",
+          "dimensions": "20x15x10cm",
+          "material": "Metal"
+      }
+  },
+  {
+      "id": 20,
+      "name": "Brake Master Cylinder",
+      "description": "High performance brake master cylinder.",
+      "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23E5EDF0' width='300' height='300'/%3E%3Cg transform='translate(150,150)'%3E%3Crect x='-25' y='-60' width='50' height='100' rx='8' fill='%2390A4AE' stroke='%23333' stroke-width='3'/%3E%3Crect x='-30' y='-70' width='60' height='15' rx='3' fill='%23666' stroke='%23333' stroke-width='2'/%3E%3Ccircle cx='-35' cy='-63' r='5' fill='%23333'/%3E%3Ccircle cx='35' cy='-63' r='5' fill='%23333'/%3E%3Crect x='-20' y='-45' width='40' height='60' rx='5' fill='%237B8E99' stroke='%23333' stroke-width='2'/%3E%3Crect x='-15' y='40' width='10' height='25' rx='2' fill='%23C0C0C0' stroke='%23333' stroke-width='2'/%3E%3Crect x='5' y='40' width='10' height='25' rx='2' fill='%23C0C0C0' stroke='%23333' stroke-width='2'/%3E%3Ccircle cx='0' cy='-15' r='8' fill='%23FFD700' stroke='%23333' stroke-width='2'/%3E%3C/g%3E%3Ctext x='150' y='250' font-size='16' fill='%23333' text-anchor='middle' font-family='Arial'%3EMaster Cylinder%3C/text%3E%3C/svg%3E",
+      "price": 100.99,
+      "manufacturer": "A1 Cardone",
+      "model_compatibility": ["Model D", "Model E", "Model F"],
+      "part_number": "BMC020",
+      "stock": 10,
+      "specifications": {
+          "weight": "2.0kg",
+          "dimensions": "20x10x10cm",
+          "material": "Metal"
+      }
+  }
+]
